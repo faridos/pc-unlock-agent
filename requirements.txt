@@ -1,0 +1,8 @@
+requests
+pydbus
+
+# Windows only
+pywin32; platform_system == "Windows"
+
+# macOS only
+pyobjc; platform_system == "Darwin"
